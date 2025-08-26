@@ -1,0 +1,60 @@
+
+body {
+  font-family: monospace;
+  background: grey;
+  color: #cfd8dc;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 80%px;
+  margin: auto;
+}
+
+#word-container {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  line-height: 2.2rem;
+  word-wrap: break-word;
+}
+
+.word {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.correct-char {
+  color: #81c784;
+}
+
+.incorrect-char {
+  color: #e57373;
+}
+
+.cursor {
+  border-left: 2px solid #fff;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+input#hidden-input {
+  opacity: 0;
+  position: absolute;
+}
+
+.stats {
+  font-size: 1.2rem;
+}
+
+
+
+/* p {
+  display: inline;
+  margin-right: 0.1 rem; /* Отступ между элементами */ 
+  /* may be i just made class for those three p tags */
+}
+*/
