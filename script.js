@@ -10,7 +10,7 @@ let started = false;
 
 
 
-function updateStats() {
+function updatestats() {
   const typed = input.value;
   const correctChars = typed.split('').filter((ch, i) => ch === sampleText[i]).length;
   const wpm = Math.round((typed.length / 5) / ((60 - timer) / 60));
@@ -239,6 +239,7 @@ document.addEventListener('keydown', function(event) {
 
 function resetTest() {
   // rewrite this func
+  // тест должен полностью перезаргужать тест
   input.value = '';
   input.disabled = false;
   input.focus();
