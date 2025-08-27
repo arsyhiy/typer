@@ -52,9 +52,9 @@ input#hidden-input {
 
 
 
-/* p {
+#stats p {
   display: inline;
   margin-right: 0.1 rem; /* Отступ между элементами */ 
   /* may be i just made class for those three p tags */
 }
-*/
+
